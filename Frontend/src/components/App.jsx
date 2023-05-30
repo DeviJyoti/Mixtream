@@ -15,7 +15,7 @@ const App = ()=>{
     useEffect(() => {
         const arrayOfObjectsOfPlaylistsAndTheirSongs = [];
         // we will get a playlist using playlistId
-        if(userData!=undefined){
+        if(userData!==undefined){
 
         userData.data.UserDetails.playlists.forEach(sendReq)
 
@@ -49,7 +49,7 @@ const App = ()=>{
             <Routes >
                 <Route path="/login" element={<LoginPage setUserDataState={setUserData} />} />
                 <Route path="/signup" element={<SignupPage />} />
-                <Route path="/" element={ userData == undefined 
+                <Route path="/" element={ userData === undefined 
                                 ? 
                                 <LandingPage /> 
                                 : 

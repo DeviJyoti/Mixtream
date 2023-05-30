@@ -3,7 +3,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import CopyrightIcon from "@mui/icons-material/Copyright";
-import logo from "../../images/logo.png";
 import styles from "./styles.module.scss";
 
 const navLinks = [
