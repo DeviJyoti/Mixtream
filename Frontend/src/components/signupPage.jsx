@@ -33,7 +33,7 @@ const SignupForm = () => {
     // TODO: Send the form data to your backend
         try {
             setIsFetching(true);
-            const url ="http://localhost:8080/api/signup";
+            const url ="https://mixtream.onrender.com/api/signup"; 
             var signupResponse = await axios.post(url, data);
             setIsFetching(false);
 

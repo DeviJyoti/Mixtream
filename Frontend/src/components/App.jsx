@@ -25,7 +25,7 @@ const App = ()=>{
         };
 
 
-        const response = await axios.get("http://localhost:8080/api/playlists/"+playlistId,
+        const response = await axios.get("https://mixtream.onrender.com/api/playlists/"+playlistId,
                                         {
                                             headers
                                         });
